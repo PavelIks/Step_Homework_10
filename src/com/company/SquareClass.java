@@ -2,9 +2,11 @@ package com.company;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Sum1
+/*Задание 1 Создайте приложение для подсчета площади геометрических фигур. Минимальные требования по фигурам:
+1) Треугольник;*/
+public class SquareClass
 {
-    boolean MySum1(int[] array)
+    boolean MySquare(int[] array)
     {
         Map<Integer, Integer> map = new HashMap<Integer, Integer>();
         if(array.length == 4)
